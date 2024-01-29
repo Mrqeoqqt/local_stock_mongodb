@@ -32,7 +32,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'quantdb=akshare_db.main:main', # run GUI
+            'quantdb=akshare_db.main:main', # run cli
         ],
     },
 )
