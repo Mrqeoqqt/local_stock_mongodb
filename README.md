@@ -1,4 +1,4 @@
-# Quantlab: A solution for local stock database
+# QuantDB: A solution for local stock database
 - akshare: fetch online data
 - MongoDB: store stock data locally
 
