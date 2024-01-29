@@ -82,7 +82,7 @@ def main():
         
         if args.basic or args.symbol:
             update_symbol_table(db)
-            print("Updated constituent stocks of stock indices")
+            print("Updated list of stock tickers")
         
         if args.basic or args.info:
             loop.run_until_complete(update_all_stock_info(db))
