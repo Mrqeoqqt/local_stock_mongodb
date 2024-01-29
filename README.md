@@ -20,7 +20,7 @@ docker --help
 ```
 - Build a docker image containing `miniconda` and `mongodb`
 ```bash
-cd akshare_db\docker
+cd akshare_db/docker
 docker images -q my_image | docker build -t my_image .
 ```
 - Start a docker image:
@@ -35,7 +35,7 @@ docker commit my_image my_saved_image
 docker stop my_image
 ```
 
-- Refer to `akshare_db\docker\docker_commands.sh` for more frequently used docker commands
+- Refer to `akshare_db/docker/docker_commands.sh` for more frequently used docker commands
 
 
 ## Install MongoDBCompass
