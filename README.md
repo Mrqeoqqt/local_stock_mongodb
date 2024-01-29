@@ -7,7 +7,7 @@
 
 ## Setup python environment
 ```bash
-conda create --name=quantlab python=3.8
+conda create --name=quantdb python=3.8
 conda activate quantdb
 # pip install -r requirements.txt
 pip install .
